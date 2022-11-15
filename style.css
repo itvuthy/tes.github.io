@@ -1,0 +1,30 @@
+:root{
+        --color1="red"
+}
+input
+{
+        width: 200px;
+        background-color: blue;
+        color:white;
+}
+input   .style{
+        height: 70px;
+}
+.p{
+        padding: 10px;
+        text-align: justify;
+        color: rgb(255, 255, 255);
+        background-color: var(--color1);
+}
+.menu{
+        background-color: var(--color1);
+        color: var(--color2);
+        position: sticky;
+        top: 0px;
+        Justify-centent: space-between;
+}
+.menu a{
+        color:var(--color2);
+        text-emphasis: none;
+        
+}

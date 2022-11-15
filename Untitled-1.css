@@ -1,0 +1,35 @@
+:root{
+        --color1:blue;
+        --color2: white;
+}
+
+input{
+        width: 200px;
+        background-color: blue;
+        color:white;
+        }
+input   .style{
+        height: 70px;
+}
+ .p{
+        padding: 10px;
+        text-align: justify;
+        background: var(--color1);
+        color: white;
+        margin: 10px; 
+ }
+ .menu{
+         padding: 10px;
+        background: var(--color1);
+        color: var(--color2);
+        position: sticky;
+        top: 0px;
+        margin: 20px;
+        display: flex;
+        justify-content: space-between;
+ }
+ .menu a{
+         color: var(--color2);
+         text-decoration: none;
+
+ }
